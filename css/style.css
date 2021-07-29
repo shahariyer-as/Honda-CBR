@@ -22,3 +22,7 @@ body {
 .btn-color {
     background-color: #E76F51;
 }
+
+.text-color-info {
+    color: gray;
+}

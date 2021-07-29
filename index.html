@@ -27,7 +27,37 @@
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua
                             dolor do amet sint. Velit officia consequat duis enim velit
                             mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                        <button class="btn btn-color text-white px-5">Purchase</button>
+                        <!--------------
+                             Button trigger modal add----------
+                             -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn  btn-color text-white px-5" data-bs-toggle="modal"
+                            data-bs-target="#staticBackdrop">
+                            Purchase
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                            tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>mod</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Save Change</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                     <div class="col-lg-6">
                         <img src="images/header-bike.png" class="d-block w-100" alt="...">
@@ -234,13 +264,36 @@
      frequency asked question section end
     ------------------------------  -->
 
-        <!-- --------------------------
-    progress bar add  -------------
------------------------>
 
+        <!-- ----------------------
+            info section-
+        -------------------------------  -->
+        <section class=" rounded mx-10">
+            <h1 class="text-center fw-bolder text-color-info">INFO US</h1>
+            <div class="container my-5 px-4">
+                <div class="row gx-5 ">
+                    <div class="col  ">
+                        <div class="p-3 border bg-light text-center shadow-lg p-3 mb-5 bg-body rounded">
+                            <p class="text-color-info">For all stanadar order in 30 days</p>
+                            <h3>FREE SHIPPING & RETURNS</h3>
+                            <a class="text-color-info fst-italic" href="#">more info here...</a>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="p-3 border bg-light text-center shadow-lg p-3 mb-5 bg-body rounded">
+                            <p class="text-color-info">Hey! How we can support you ?</p>
+                            <h3>VEHICLE PROTECTION PLAN</h3>
+                            <a class="fst-italic text-color-info" href="#">more info here...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!----------------------
+             info section
+        ---------------- -->
 
-        <!-- progress bar end  -->
 
         <!-------------------------
         login section form
@@ -260,9 +313,13 @@
             </div>
         </section>
         <!-- login section end  -->
-
-
     </main>
+    <!-- footer section  -->
+    <footer class="container my-5 text-center ">
+        <p class="p-3"><small class=" text-color"> Copyright © 2021. All Rights Reserved By Honda CBR.</small></p>
+    </footer>
+    <!-- footer section end  -->
+
     <!-- bootstar js cdn add  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
